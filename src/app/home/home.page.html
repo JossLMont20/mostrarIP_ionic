@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Mostrar direccion IP de usuario
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="tertiary">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Mostrar direccion IP de usuario</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-button expand="block" color="success" id="btn-id" (click)="cargarIP()">CLICK ME</ion-button>
+  <ion-item color="medium">
+    <ion-label position="floating" >IP del usuario:</ion-label>
+    <ion-input [(ngModel)]="ip"  [readonly]="true"></ion-input>
+  </ion-item>
+  <div id="container">
+    <img src="../../assets/img/logo.png" alt="">
+  </div>
+</ion-content>

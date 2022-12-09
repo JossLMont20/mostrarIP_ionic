@@ -1,0 +1,7 @@
+{
+  "name": "mostrarIP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
